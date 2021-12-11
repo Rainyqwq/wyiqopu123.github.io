@@ -197,24 +197,20 @@ author.innerHTML = result.data.origin.author + '《' + result.data.origin.title 
       appKey: 'xXhAVcbXsQ4jjC8OkLFSmxeU',
       avatar: 'monsterid',
       serverURLs: '',
-      
-  emojiCDN: '',
-
-       emojiMaps: "",
-       path: window.location.pathname,
-        placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
-        master: 'b1d51017b5b8495b3c0455c636a818ff'.split(','),
-        friends: '07237b970921cff948dbc633e60f4e03,d5106679c8fa52884772677cd7163f52'.split(','),
-        
-        enableQQ: 'true',
-     
-        tagMeta: '博主,小伙伴,访客'.split(','),
-      visitor: true
+      emojiCDN: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
+      master: 'b1d51017b5b8495b3c0455c636a818ff'.split(','),
+      friends: '07237b970921cff948dbc633e60f4e03,d5106679c8fa52884772677cd7163f52'.split(','),
+      enableQQ: 'true',
+      tagMeta: '博主,小伙伴,访客'.split(','),
+      visitor: false
     }, null))
   }
 
   if (typeof Valine === 'function') initValine() 
-  else getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js').then(initValine)
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
 }
 
 if ('Valine' === 'Valine' || !true) {
