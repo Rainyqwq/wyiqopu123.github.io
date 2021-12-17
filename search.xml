@@ -9812,4 +9812,25 @@ is like driving with your eyes closed.<br>
         <tag>tags</tag>
       </tags>
   </entry>
+  <entry>
+    <title>(测试html)</title>
+    <url>/2021/12/18/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<iframe
+name="web"
+width="100%" 
+frameborder=0height="100%" 
+src="https://support.qq.com/product/368778" 
+id="web"
+onload="this.height=web.document.body.scrollHeight+20">
+</iframe>
+<script
+language="javascript">if(window.parent.length>0){window.parent.document.all.newtest.style.height=document.body.scrollHeight;}
+</script>]]></content>
+      <categories>
+        <category>html</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
 </search>
